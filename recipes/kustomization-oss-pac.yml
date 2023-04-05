@@ -18,8 +18,8 @@ namespace: spinnaker
 components:
   - core/base                             # Defines base configuration across the cluster
   - core/persistence/in-cluster           # Enables persistence using MinIO in-cluster
-  - targets/kubernetes/default
-  - plugins/oss/pipeline-as-a-code
+#  - targets/kubernetes/default
+#  - plugins/oss/pipeline-as-a-code
 
 patchesStrategicMerge:
   - core/patches/oss-version.yml          # Sets the OSS version to use
