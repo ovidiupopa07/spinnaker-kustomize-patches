@@ -1,0 +1,11 @@
+apiVersion: spinnaker.armory.io/v1alpha2
+kind: SpinnakerService
+metadata:
+  name: spinnaker
+spec:
+  spinnakerConfig:
+    config:
+      version: 2.28.0            # Spinnaker version to deploy
+#    service-settings:
+#      deck:
+#        artifactId: 'armory-docker-local.jfrog.io/armory/deck:2.29.0-snapshot.20220728111413.uncommitted.performance.improvement.108847b'

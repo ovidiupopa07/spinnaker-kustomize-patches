@@ -6,3 +6,10 @@ spec:
   spinnakerConfig:
     config:
       version: 2.28.0            # Spinnaker version to deploy
+    service-settings:
+      orca:
+        artifactId: 'armory/orca-armory:2022.08.25.20.25.25.master'
+      igor:
+        artifactId: 'armory/igor-armory:2022.08.26.16.08.36.master'
+      clouddriver:
+        artifactId: 'armory-docker-local.jfrog.io/armory/clouddriver-ovi3:latest'
